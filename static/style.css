@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+    background: linear-gradient(to right, #1f1f2e, #2d0c4f);
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(25, 25, 40, 0.85);
+    border: 1px solid #5b4b8a;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 850px;
+    box-shadow: 0 0 25px rgba(142, 68, 173, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #c792ea;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #9b59b6;
+}
+
+.status,
+.paths,
+.activities {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #8e44ad;
+}
+
+#status-text {
+    font-size: 1.3em;
+    color: #9b59b6;
+}
+
+#paths-text {
+    color: #ccc;
+    white-space: pre-wrap;
+}
+
+#activities-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid #8e44ad;
+}
+
+#activities-list li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(142, 68, 173, 0.2);
+    color: #f1c40f;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    background: linear-gradient(to right, #6a1b9a, #8e44ad);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #8e44ad;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover:not(:disabled) {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #9b59b6;
+}
+
+button:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+.shield-icon {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 5px #f2f1ee);
+}
