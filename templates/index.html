@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIDS Monitor</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <audio id="alert-sound" src="static/alert.mp3" preload="auto"></audio>
+
+    <div class="container">
+        <h1>
+            <img src="static/shield.png" alt="Shield Icon" class="shield-icon">
+            HIDS Monitor</h1>
+        <div class="status">
+            <span id="status-text">Monitoring: Stopped</span>
+        </div>
+        <div class="paths">
+            <h3>Monitored Paths:</h3>
+            <p id="paths-text"></p>
+        </div>
+        <div class="activities">
+            <h3>Suspicious Activities:</h3>
+            <ul id="activities-list"></ul>
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start Monitoring</button>
+            <button id="stop-btn" disabled>Stop Monitoring</button>
+            <button id="clear-btn">Clear Log</button>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
