@@ -107,4 +107,4 @@ Or check them directly from the dashboard.
 
 ## 🙋 Need Help?
 
-Open an issue on [GitHub](https://github.com/DivyanshuTewari/hids/issues) .
+Open an issue on [GitHub](https://github.com/DivyanshuTewari/Signature-Based-Host-Intrusion-Detection-System/issues) .
