@@ -14,7 +14,7 @@
 Open **Command Prompt** or **PowerShell** as Administrator and run:
 
 ```bash
-git clone https://github.com/yourusername/hids.git
+git clone https://github.com/DivyanshuTewari/Signature-Based-Host-Intrusion-Detection-System.git
 cd hids
 python -m venv venv
 venv\Scripts\activate
