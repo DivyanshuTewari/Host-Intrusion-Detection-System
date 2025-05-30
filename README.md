@@ -1,4 +1,4 @@
-# Signature-Based Host Intrusion Detection System (HIDS)
+# Host Intrusion Detection System (HIDS)
 
 A Windows-based **Signature-Based Host Intrusion Detection System (HIDS)** that monitors the file system and process activities for suspicious behavior using YARA rules. It provides a modern web-based GUI and supports real-time alerts, configurable scanning, and process/file quarantine features.
 
